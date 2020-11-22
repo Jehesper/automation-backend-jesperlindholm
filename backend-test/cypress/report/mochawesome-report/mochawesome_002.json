@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-22T13:30:03.333Z",
+    "end": "2020-11-22T13:30:04.053Z",
+    "duration": 720,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "35b21c7a-734b-4e5f-9d0d-240f07f12c58",
+      "title": "",
+      "fullFile": "cypress/integration/backend-bill-suite.spec.js",
+      "file": "cypress/integration/backend-bill-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+          "title": "Bills",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a Bill",
+              "fullTitle": "Bills Create a Bill",
+              "timedOut": null,
+              "duration": 626,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.createBill(cy);",
+              "err": {},
+              "uuid": "5b081a77-146c-4de1-b068-a15f012116ca",
+              "parentUUID": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete a Bill",
+              "fullTitle": "Bills Delete a Bill",
+              "timedOut": null,
+              "duration": 56,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.deleteBill(cy);",
+              "err": {},
+              "uuid": "652ed943-b643-4761-ac4a-83759553cdb7",
+              "parentUUID": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b081a77-146c-4de1-b068-a15f012116ca",
+            "652ed943-b643-4761-ac4a-83759553cdb7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 682,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

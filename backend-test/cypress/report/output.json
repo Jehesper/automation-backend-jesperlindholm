@@ -1,0 +1,394 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 10,
+    "passes": 10,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-11-22T13:28:02.672Z",
+    "end": "2020-11-22T13:30:14.149Z",
+    "duration": 4875,
+    "testsRegistered": 10,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8f37c503-9cee-4bc9-b078-8a5de86579a1",
+      "title": "",
+      "fullFile": "cypress/integration/backend-bill-suite.spec.js",
+      "file": "cypress/integration/backend-bill-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "58d8f11d-89ff-439b-9b85-eb80a53a7c85",
+          "title": "Bills",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a Bill",
+              "fullTitle": "Bills Create a Bill",
+              "timedOut": null,
+              "duration": 622,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.createBill(cy);",
+              "err": {},
+              "uuid": "f69f7628-cb28-4896-8ae3-34962d7e0757",
+              "parentUUID": "58d8f11d-89ff-439b-9b85-eb80a53a7c85",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete a Bill",
+              "fullTitle": "Bills Delete a Bill",
+              "timedOut": null,
+              "duration": 47,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.deleteBill(cy);",
+              "err": {},
+              "uuid": "b0611d2c-e422-461e-ba84-97b1ce6629c0",
+              "parentUUID": "58d8f11d-89ff-439b-9b85-eb80a53a7c85",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f69f7628-cb28-4896-8ae3-34962d7e0757",
+            "b0611d2c-e422-461e-ba84-97b1ce6629c0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 669,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "7fdf3642-de05-4b80-b6d8-e0c7e81dacd1",
+      "title": "",
+      "fullFile": "cypress/integration/backend-client-suite.spec.js",
+      "file": "cypress/integration/backend-client-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5cb1a12a-ba44-4cfc-97df-f5d7b26b9229",
+          "title": "Clients",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create random client",
+              "fullTitle": "Clients Create random client",
+              "timedOut": null,
+              "duration": 639,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.createClientRequest(cy);",
+              "err": {},
+              "uuid": "c9633dfc-930a-4a79-94a7-4fdf82506794",
+              "parentUUID": "5cb1a12a-ba44-4cfc-97df-f5d7b26b9229",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get All Clients",
+              "fullTitle": "Clients Get All Clients",
+              "timedOut": null,
+              "duration": 543,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.getAllClientRequest(cy);",
+              "err": {},
+              "uuid": "8ebc28ef-5fc0-4518-a0a8-486da4b93c46",
+              "parentUUID": "5cb1a12a-ba44-4cfc-97df-f5d7b26b9229",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete A Client",
+              "fullTitle": "Clients Delete A Client",
+              "timedOut": null,
+              "duration": 561,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.createClientRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "a7dd0e9d-e29b-4407-b411-3646083d033e",
+              "parentUUID": "5cb1a12a-ba44-4cfc-97df-f5d7b26b9229",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c9633dfc-930a-4a79-94a7-4fdf82506794",
+            "8ebc28ef-5fc0-4518-a0a8-486da4b93c46",
+            "a7dd0e9d-e29b-4407-b411-3646083d033e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1743,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "35b21c7a-734b-4e5f-9d0d-240f07f12c58",
+      "title": "",
+      "fullFile": "cypress/integration/backend-bill-suite.spec.js",
+      "file": "cypress/integration/backend-bill-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+          "title": "Bills",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a Bill",
+              "fullTitle": "Bills Create a Bill",
+              "timedOut": null,
+              "duration": 626,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.createBill(cy);",
+              "err": {},
+              "uuid": "5b081a77-146c-4de1-b068-a15f012116ca",
+              "parentUUID": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete a Bill",
+              "fullTitle": "Bills Delete a Bill",
+              "timedOut": null,
+              "duration": 56,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billhelpers.deleteBill(cy);",
+              "err": {},
+              "uuid": "652ed943-b643-4761-ac4a-83759553cdb7",
+              "parentUUID": "ee16f02e-e1ab-499d-8023-f0ff8b9ac8d7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b081a77-146c-4de1-b068-a15f012116ca",
+            "652ed943-b643-4761-ac4a-83759553cdb7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 682,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1e66f730-6d92-412b-b9cd-fddcdf68bbe4",
+      "title": "",
+      "fullFile": "cypress/integration/backend-client-suite.spec.js",
+      "file": "cypress/integration/backend-client-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d504dcb-36ba-4379-975b-8de206fab0e6",
+          "title": "Clients",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create random client",
+              "fullTitle": "Clients Create random client",
+              "timedOut": null,
+              "duration": 647,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.createClientRequest(cy);",
+              "err": {},
+              "uuid": "166044b8-1661-4bf9-9de0-39e2aad62f9a",
+              "parentUUID": "6d504dcb-36ba-4379-975b-8de206fab0e6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get All Clients",
+              "fullTitle": "Clients Get All Clients",
+              "timedOut": null,
+              "duration": 559,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.getAllClientRequest(cy);",
+              "err": {},
+              "uuid": "5e446eec-bd77-4474-a32d-70ae7c08e04c",
+              "parentUUID": "6d504dcb-36ba-4379-975b-8de206fab0e6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete A Client",
+              "fullTitle": "Clients Delete A Client",
+              "timedOut": null,
+              "duration": 575,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clienthelpers.createClientRequestAndDelete(cy);",
+              "err": {},
+              "uuid": "b27948a4-ed35-430a-a474-e6b8a4d1087f",
+              "parentUUID": "6d504dcb-36ba-4379-975b-8de206fab0e6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "166044b8-1661-4bf9-9de0-39e2aad62f9a",
+            "5e446eec-bd77-4474-a32d-70ae7c08e04c",
+            "b27948a4-ed35-430a-a474-e6b8a4d1087f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1781,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
